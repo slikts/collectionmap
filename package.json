@@ -1,8 +1,8 @@
 {
   "name": "CollectionMap",
   "version": "1.0.1",
-  "description": "An extension of Map that auto-initializes new values with empty collections and auto-removes empty collections",
-  "main": "index.js",
+  "description": "An extension of Map that auto-initializes new values with empty collections and auto-removes empty collections being set",
+  "main": "collectionmap.js",
   "directories": {
     "test": "test"
   },
