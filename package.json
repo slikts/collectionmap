@@ -1,0 +1,35 @@
+{
+  "name": "CollectionMap",
+  "version": "1.0.0",
+  "description": "A map that auto-initializes new collections when getting and auto-removes empty collections when setting",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/slikts/collectionmap.git"
+  },
+  "keywords": [
+    "map",
+    "values",
+    "initialize",
+    "collection",
+    "array",
+    "defaults",
+    "auto-initialize",
+    "auto-remove"
+  ],
+  "author": "slikts <dabas@untu.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slikts/circulator/issues"
+  },
+  "homepage": "https://github.com/slikts/circulator#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
