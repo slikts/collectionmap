@@ -1,7 +1,7 @@
 {
   "name": "CollectionMap",
   "version": "1.0.0",
-  "description": "A map that auto-initializes new collections when getting and auto-removes empty collections when setting",
+  "description": "An extension of Map that auto-initializes new values with empty collections and auto-removes empty collections",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,14 +14,17 @@
     "url": "git+ssh://git@github.com/slikts/collectionmap.git"
   },
   "keywords": [
+    "autovivification",
     "map",
     "values",
     "initialize",
     "collection",
     "array",
+    "set",
     "defaults",
     "auto-initialize",
-    "auto-remove"
+    "auto-remove",
+    "defaultdict"
   ],
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",

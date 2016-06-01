@@ -34,19 +34,19 @@ class CollectionMap extends Map {
 }
 
 class ArrayMap extends CollectionMap {
-  constructor(iterable) {
+  constructor(iterable = undefined) {
     super(Array, 'length', iterable)
   }
 }
 
 class MapMap extends CollectionMap {
-  constructor(iterable) {
+  constructor(iterable = undefined) {
     super(Map, 'size', iterable)
   }
 }
 
 class SetMap extends CollectionMap {
-  constructor(iterable) {
+  constructor(iterable = undefined) {
     super(Set, 'size', iterable)
   }
 }

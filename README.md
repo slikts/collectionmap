@@ -4,7 +4,7 @@
 
 # CollectionMap
 
-An simple extension of [`Map`][map-link] that auto-initializes new values with empty collections and auto-removes empty collections from itself.
+A simple extension of [`Map`][map-link] that [auto-initializes][autovivify] new values with empty collections and auto-removes empty collections.
 
 ```js
 const {SetMap} = require('CollectionMap')
@@ -35,6 +35,7 @@ const CustomSetMap = CollectionMap.bind(CustomSet, 'size')
 [license-image]: http://img.shields.io/npm/l/CollectionMap.svg
 [package-url]: https://npmjs.com/package/CollectionMap
 [npm-badge-png]: https://nodei.co/npm/CollectionMap.png
+[autovivify]: https://en.wikipedia.org/wiki/Autovivification
 
 ## Test
 
