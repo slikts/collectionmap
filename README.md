@@ -7,7 +7,7 @@
 An simple extension of [`Map`][map-link] that auto-initializes new values with empty collections and auto-removes empty collections from itself.
 
 ```js
-const {SetMap} = require('collectionmap')
+const {SetMap} = require('CollectionMap')
 
 const map = SetMap()
 // Getting by a non-existent key will return an empty initial value (a set by default)
@@ -32,9 +32,9 @@ const CustomSetMap = CollectionMap.bind(CustomSet, 'size')
 
 [map-link]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [license-url]: LICENSE
-[license-image]: http://img.shields.io/npm/l/collectionmap.svg
-[package-url]: https://npmjs.com/package/collectionmap
-[npm-badge-png]: https://nodei.co/npm/collectionmap.png
+[license-image]: http://img.shields.io/npm/l/CollectionMap.svg
+[package-url]: https://npmjs.com/package/CollectionMap
+[npm-badge-png]: https://nodei.co/npm/CollectionMap.png
 
 ## Test
 
