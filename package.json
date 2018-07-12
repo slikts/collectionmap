@@ -29,9 +29,9 @@
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slikts/circulator/issues"
+    "url": "https://github.com/slikts/collectionmap/issues"
   },
-  "homepage": "https://github.com/slikts/circulator#readme",
+  "homepage": "https://github.com/slikts/collectionmap#readme",
   "devDependencies": {
     "tape": "^4.5.1"
   }
