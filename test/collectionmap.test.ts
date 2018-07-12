@@ -48,4 +48,10 @@ describe('test', () => {
     const a = new SetMap([[1, new Set([2])]])
     expect([...a.get(1)]).toEqual([2])
   })
+
+  it('should throw with missing values', () => {
+    expect(() => new CollectionMap()).toThrow()
+    expect(() => new CollectionMap(Set)).toThrow()
+    expect(() => new CollectionMap('foo', 1)).toThrow()
+  })
 })
