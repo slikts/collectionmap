@@ -1,7 +1,24 @@
 {
+<<<<<<< HEAD
   "name": "collectionmap",
   "version": "2.0.0-alpha",
   "description": "An extension of Map that auto-initializes new values with empty collections and auto-removes empty collections being set",
+=======
+  "name": "CollectionMap",
+  "version": "1.0.2",
+  "description": "An extension of Map that auto-initializes new values with empty collections and auto-removes empty collections being set",
+  "main": "collectionmap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/slikts/collectionmap.git"
+  },
+>>>>>>> 6de1a1b0d451c2e12282e8b48f6555cb0a999b94
   "keywords": [
     "autovivification",
     "map",
@@ -15,6 +32,7 @@
     "auto-remove",
     "defaultdict"
   ],
+<<<<<<< HEAD
   "main": "dist/collectionmap.umd.js",
   "module": "dist/collectionmap.es5.js",
   "typings": "dist/types/collectionmap.d.ts",
@@ -124,4 +142,15 @@
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {}
+=======
+  "author": "slikts <dabas@untu.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slikts/circulator/issues"
+  },
+  "homepage": "https://github.com/slikts/circulator#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+>>>>>>> 6de1a1b0d451c2e12282e8b48f6555cb0a999b94
 }

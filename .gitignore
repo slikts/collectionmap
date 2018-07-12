@@ -1,4 +1,5 @@
 node_modules
+<<<<<<< HEAD
 coverage
 .nyc_output
 .DS_Store
@@ -10,3 +11,5 @@ compiled
 .awcache
 .rpt2_cache
 docs
+=======
+>>>>>>> 6de1a1b0d451c2e12282e8b48f6555cb0a999b94
